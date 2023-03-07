@@ -1,5 +1,8 @@
 # EIP-712 ![Crates.io](https://img.shields.io/crates/d/EIP-712.svg) [![Released API docs](https://docs.rs/EIP-712/badge.svg)](https://docs.rs/EIP-712)
 
+
+[EIP-712](https://eips.ethereum.org/EIPS/eip-712) typed structured data struct and hashing method for use with Ethrereum [SignTypedData V4](https://docs.metamask.io/guide/signing-data.html#signtypeddata-v4). Structured data hash calculated with hash_structured_data() can be fed to [web3::signing::recover](https://docs.rs/web3/latest/web3/signing/fn.recover.html) method for signature verification in rust.
+
 ## Example
 
 ```rust
